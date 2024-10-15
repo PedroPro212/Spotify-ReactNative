@@ -2,6 +2,7 @@ import { Text, View, StyleSheet, Image } from "react-native";
 
 import styles from "../style/home.style";
 import OpcoesRapidas from "../../../shared/components/opcoesRapidas/Opcoes";
+import Lancamento from "../../../shared/components/lancamento/Lancamento";
 
 const Home = () => {
     return (
@@ -37,6 +38,8 @@ const Home = () => {
                 <OpcoesRapidas title="Evanescence" source={require('../../../shared/imgs/capasAlbuns/Fallen.jpg')} />
                 <OpcoesRapidas title="Imagine Dragons" source={require('../../../shared/imgs/capasAlbuns/imagine.png')} />
             </View>
+
+            <Lancamento />
             
         </View>
     )
