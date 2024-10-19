@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#121212'
+        backgroundColor: '#121212',
     },
     header: {
         flexDirection: 'row',
@@ -35,6 +35,17 @@ const styles = StyleSheet.create({
         marginLeft: 15,
         marginRight: 15,
         marginBottom: 10,
+    },
+    scrollContainer: {
+        flexDirection: 'row',
+    },
+    playlistFrequentes: {
+        fontSize: 21,
+        color: '#FFFFFF',
+        fontWeight: 'bold',
+        marginTop: 13,
+        marginLeft: 15,
+        marginBottom: 8,
     }
 
 })
