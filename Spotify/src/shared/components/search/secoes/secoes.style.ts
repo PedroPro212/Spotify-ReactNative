@@ -16,6 +16,9 @@ export const GeneroMus = styled.Text`
     marginTop: 12px;
     marginLeft: 10px;
     fontWeight: bold;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    width: 100px;
 `
 
 export const CapaGeneroMusc = styled.Image`

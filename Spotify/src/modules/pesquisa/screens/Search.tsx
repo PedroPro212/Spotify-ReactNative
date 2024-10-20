@@ -34,6 +34,30 @@ const Search = () => {
                     <Secao bgColor="#e32551" descricao="Música" source={require('../../../shared/imgs/capasAlbuns/musicas.jpg')} />
                     <Secao bgColor="#029daf" descricao="Podcasts" source={require('../../../shared/imgs/capasAlbuns/podcast.jpg')} />
                 </View>
+                <View style={{flexDirection: 'row', gap: 7}}>
+                    <Secao bgColor="#6743a5" descricao="Eventos ao vivo" source={require('../../../shared/imgs/capasAlbuns/mercury.png')} />
+                    <Secao bgColor="#005bc5" descricao="Feito para você" source={require('../../../shared/imgs/capasAlbuns/evanescence.jpeg')} />
+                </View>
+                <View style={{flexDirection: 'row', gap: 7}}>
+                    <Secao bgColor="#6b8f0b" descricao="Lançamentos" source={require('../../../shared/imgs/capasAlbuns/Machine.jpg')} />
+                    <Secao bgColor="#e3a72f" descricao="Sertanejo" source={require('../../../shared/imgs/capasAlbuns/marilia.jpeg')} />
+                </View>
+                <View style={{flexDirection: 'row', gap: 7}}>
+                    <Secao bgColor="#e05576" descricao="Brasil" source={require('../../../shared/imgs/capasAlbuns/chitaozinho.jpg')} />
+                    <Secao bgColor="#464d70" descricao="Pop" source={require('../../../shared/imgs/capasAlbuns/michaelJ.jpg')} />
+                </View>
+                <View style={{flexDirection: 'row', gap: 7}}>
+                    <Secao bgColor="#288d85" descricao="Funk" source={require('../../../shared/imgs/capasAlbuns/mcHariel.png')} />
+                    <Secao bgColor="#5e2f46" descricao="No carro" source={require('../../../shared/imgs/capasAlbuns/mustang.png')} />
+                </View>
+                <View style={{flexDirection: 'row', gap: 7}}>
+                    <Secao bgColor="#001449" descricao="Hip hop" source={require('../../../shared/imgs/capasAlbuns/hiphop.jpg')} />
+                    <Secao bgColor="#36802d" descricao="Samba e pagode" source={require('../../../shared/imgs/capasAlbuns/Samba.jpeg')} />
+                </View>
+                <View style={{flexDirection: 'row', gap: 7, marginBottom: 55}}>
+                    <Secao bgColor="#e84b2c" descricao="Rádio" source={require('../../../shared/imgs/capasAlbuns/radio.jpg')} />
+                    <Secao bgColor="#157a8c" descricao="MPB" source={require('../../../shared/imgs/capasAlbuns/CaetanoVeloso.png')} />
+                </View>
             </ScrollView>
         </View>
     )
