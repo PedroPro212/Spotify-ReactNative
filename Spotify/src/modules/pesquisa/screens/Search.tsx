@@ -16,7 +16,7 @@ const Search = () => {
                     </View>
                     <Text style={styles.header_titulo}>Search</Text>
                 </View>
-                <Ionicons name="camera-outline" size={37 } color="white" />
+                <Ionicons name="camera-outline" size={37} color="white" />
             </View>
 
             <Input source={require('../../../shared/imgs/icons/search.png')} placeholder="What do you want to listen to?" />
