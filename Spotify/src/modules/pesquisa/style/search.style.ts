@@ -31,6 +31,12 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         margin: 15,
         fontWeight: 'bold',
+    },
+    loadingContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#121212' // Fundo escuro para combinar com o tema
     }
 })
 

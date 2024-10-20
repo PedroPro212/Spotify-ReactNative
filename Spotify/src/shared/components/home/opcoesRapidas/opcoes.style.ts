@@ -13,7 +13,7 @@ export const ViewContainer = styled.View`
 export const ImageContainer = styled.Image`
     width: 60px;
     height: 60px;
-    backgroundColor: blue;
+    backgroundColor: #535353;
     borderRadius: 5px 0 0 5px;
 `
 

@@ -1,4 +1,4 @@
-import { View, Text, Image, ScrollView } from "react-native";
+import { View, Text, Image, ScrollView  } from "react-native";
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import styles from "../style/search.style";
