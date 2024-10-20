@@ -1,9 +1,11 @@
 import { View, Text } from "react-native";
 
+import styles from "../style/biblioteca.style";
+
 const Biblioteca = () => {
     return (
-        <View>
-            <Text>Biblioteca</Text>
+        <View style={styles.container}>
+            
         </View>
     )
 }

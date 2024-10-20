@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     scrollContainer: {
         flexDirection: 'row',
     },
-    playlistFrequentes: {
+    subtitulos: {
         fontSize: 21,
         color: '#FFFFFF',
         fontWeight: 'bold',

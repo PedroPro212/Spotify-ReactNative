@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 
 export const ViewContainer = styled.View`
-    margin: 15px;
+    margin: 15px 15px 15px 15px;
 `
 
 // export const TituloPlaylistFrequentes = styled.Text`

@@ -1,9 +1,10 @@
 import { Text, View, StyleSheet, Image, ScrollView, FlatList } from "react-native";
 
 import styles from "../style/home.style";
-import OpcoesRapidas from "../../../shared/components/opcoesRapidas/Opcoes";
-import Lancamento from "../../../shared/components/lancamento/Lancamento";
-import PlaylistFrequenets from "../../../shared/components/playlistFrequentes/PlaylistFavoritas";
+import OpcoesRapidas from "../../../shared/components/home/opcoesRapidas/Opcoes";
+import Lancamento from "../../../shared/components/home/lancamento/Lancamento";
+import PlaylistFrequenets from "../../../shared/components/home/playlistFrequentes/PlaylistFavoritas";
+import TocadasRecentemente from "../../../shared/components/home/recentemente/Recentemente";
 
 const Home = () => {
     return (
@@ -43,7 +44,7 @@ const Home = () => {
 
                 <Lancamento />
                 
-                <Text style={styles.playlistFrequentes}>Suas playlists frequentes</Text>
+                <Text style={styles.subtitulos}>Suas playlists frequentes</Text>
                 <ScrollView
                     horizontal={true}
                     showsHorizontalScrollIndicator={false}
@@ -53,6 +54,20 @@ const Home = () => {
                     <PlaylistFrequenets source={require('../../../shared/imgs/capasAlbuns/diploma.png')} title="Caminho Faculdade" descricao="Playlist" />
                     <PlaylistFrequenets source={require('../../../shared/imgs/capasAlbuns/foco.jpeg')} title="Foco" descricao="Playlist" />
                     <PlaylistFrequenets source={require('../../../shared/imgs/capasAlbuns/academia.jpg')} title="Academia" descricao="Playlist" />
+                </ScrollView>
+
+                <Text style={styles.subtitulos}>Tocadas recentemente</Text>
+                <ScrollView
+                    horizontal={true}
+                    showsHorizontalScrollIndicator={false}
+                    contentContainerStyle={styles.scrollContainer}
+                >
+                    <TocadasRecentemente source={require('../../../shared/imgs/icons/curtidas.png')} title="Liked Songs" />
+                    <TocadasRecentemente source={require('../../../shared/imgs/capasAlbuns/artworks.jpg')} title="Okean Elzy" />
+                    <TocadasRecentemente source={require('../../../shared/imgs/capasAlbuns/skillet.jpg')} title="Skillet" />
+                    <TocadasRecentemente source={require('../../../shared/imgs/capasAlbuns/eminem.png')} title="Eminem" />
+                    <TocadasRecentemente source={require('../../../shared/imgs/capasAlbuns/coldplay.png')} title="Coldplay" />
+                    <TocadasRecentemente source={require('../../../shared/imgs/capasAlbuns/queen.png')} title="Queen" />
                 </ScrollView>
 
             </ScrollView>
