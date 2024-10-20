@@ -52,6 +52,7 @@ const Home = () => {
                     <PlaylistFrequenets source={require('../../../shared/imgs/capasAlbuns/notionred.png')} title="Notion" descricao="Playlist" />
                     <PlaylistFrequenets source={require('../../../shared/imgs/capasAlbuns/diploma.png')} title="Caminho Faculdade" descricao="Playlist" />
                     <PlaylistFrequenets source={require('../../../shared/imgs/capasAlbuns/foco.jpeg')} title="Foco" descricao="Playlist" />
+                    <PlaylistFrequenets source={require('../../../shared/imgs/capasAlbuns/academia.jpg')} title="Academia" descricao="Playlist" />
                 </ScrollView>
 
             </ScrollView>
